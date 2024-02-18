@@ -10,10 +10,10 @@ let package = Package(
             targets: ["BigNumber"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/OperatorFoundation/Datable", branch: "4.0.0"),
-        .package(url: "https://github.com/OperatorFoundation/SwiftHexTools", branch: "1.2.6"),
-        .package(url: "https://github.com/OperatorFoundation/Transmission", branch: "release"),
-        .package(url: "https://github.com/OperatorFoundation/TransmissionData", branch: "release"),
+        .package(url: "https://github.com/OperatorFoundation/Datable", from: "4.0.1"),
+        .package(url: "https://github.com/OperatorFoundation/SwiftHexTools", from: "1.2.6"),
+        .package(url: "https://github.com/OperatorFoundation/Transmission", from: "1.2.11"),
+        .package(url: "https://github.com/OperatorFoundation/TransmissionData", from: "1.0.0"),
     ],
     targets: [
         .target(
